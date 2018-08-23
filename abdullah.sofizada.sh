@@ -11,7 +11,7 @@
 if [ $# -eq 0 ]
   then
     echo "Usage Error"
-    echo "Usage: $0 /etc/httpd/logs /opt/output";
+    echo "Usage: $0 /path/to/logs/directory /path/to/output/directory";
     exit 1;
 fi
 
