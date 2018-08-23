@@ -22,7 +22,8 @@ The bash script is saved as firstname.lastname.sh. The script should take 2 argu
 ## Installation / Usage
 
 Shell Script Usage:
-1. sh abdullah.sofizada.sh /path/to/logs/directory /path/to/output/directory
+1. chmod +x abdullah.sofizada.sh (make script executeable)
+2. sh abdullah.sofizada.sh /path/to/logs/directory /path/to/output/directory
 
 ## Verify the script worked
 
@@ -34,5 +35,6 @@ At this point the hwOutputFile.log file should be a single file containing all t
 1. Usage Error = (wrong or missing parameters passed to the script)
 2. missing log directory (log directory doesn't exist)
 3. missing output directory (outout directory doesn't exist)
+4. cat: /opt/logs//hwFile*.log: No such file or directory (no log files are present in the log directory)
 
 
