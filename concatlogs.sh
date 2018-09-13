@@ -1,8 +1,7 @@
 #!/bin/bash
 ################################################################################
 # Program:     Concatenate multiple log files into a single resulting file
-################################################################################
-# Author:      Abdullah S
+############################################################
 ################################################################################
 # Description: The order of the lines in the resulting file should be grouped by IP address and sorted by time within the group.
 ################################################################################
